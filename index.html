@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="tiger club - Melhor banca do Brasil, tigersclub" />
-  <meta name="keywords" content="Tiger Club, banca online com credibilidade e confiança!" />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Tiger Club Oficial - Banca online" />
-  <meta property="og:description" content="tiger Club, banca tiger club" />
-  <meta property="og:url" content="https://bancatigerclub.com/" />
-  <meta property="og:type" content="website" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; frame-src *; connect-src *;" />
-  <title>Tiger Club - 30% de bonus, Banca que mais cresce! </title>
-  <link rel="icon" href="tigerclub.png" type="image/png" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Tiger Club - Banca Online com 25% de Bônus | Plataforma Oficial 2026</title>
+  <meta name="title" content="Tiger Club - Banca Online com 25% de Bônus | Plataforma Oficial 2026">
+  <meta name="description" content="Tiger Club é a banca online que mais cresce no Brasil! Ganhe 30% de bônus no primeiro depósito, saques rápidos, suporte 24/7 e a melhor experiência em apostas esportivas e cassino online.">
+  <meta name="keywords" content="Tiger Club, banca online, apostas esportivas, cassino online, bônus 30%, banca confiável, apostas Brasil">
+  <meta name="author" content="Tiger Club">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://bancatigerclub.com/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bancatigerclub.com/">
+  <meta property="og:title" content="Tiger Club - Banca Online com 30% de Bônus">
+  <meta property="og:description" content="A banca online que mais cresce no Brasil! 30% de bônus, saques rápidos e suporte 24/7.">
+  <meta property="og:image" content="https://bancatigerclub.com/tigerclub.png">
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="tigerclub.png">
+  <link rel="apple-touch-icon" href="tigerclub.png">
+  <meta name="theme-color" content="#129e00">
+  
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  
+  <!-- Stylesheets -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-70QZPPYYF7"></script>
@@ -25,11 +43,80 @@
     gtag('config', 'G-70QZPPYYF7');
   </script>
 
+  <!-- 🛡️ PROTEÇÃO ANTI-BOT E ANTI-SCRAPING -->
+  <script>
+    // Proteção contra bots maliciosos
+    (function() {
+      // Detecta comportamento de bot
+      const isSuspiciousBot = () => {
+        // Verifica se tem webdriver (automação)
+        if (navigator.webdriver) return true;
+        
+        // Verifica user agent suspeito
+        const ua = navigator.userAgent.toLowerCase();
+        const botPatterns = ['bot', 'crawler', 'spider', 'scraper', 'curl', 'wget', 'python'];
+        if (botPatterns.some(pattern => ua.includes(pattern))) return true;
+        
+        return false;
+      };
+
+      // Proteção contra clickjacking
+      if (window.top !== window.self) {
+        window.top.location = window.self.location;
+      }
+
+      // Bloqueia bots suspeitos
+      if (isSuspiciousBot()) {
+        document.body.innerHTML = '<h1>Acesso Negado</h1><p>Entre em contato com o suporte.</p>';
+        throw new Error('Bot detectado');
+      }
+
+      // Proteção contra injeção de código
+      const originalLog = console.log;
+      console.log = function() {
+        if (arguments[0] && arguments[0].toString().includes('script')) {
+          return;
+        }
+        originalLog.apply(console, arguments);
+      };
+    })();
+  </script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tiger Club",
+    "url": "https://bancatigerclub.com/",
+    "logo": "https://bancatigerclub.com/tigerclub.png",
+    "description": "Banca online líder em apostas no Brasil",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-83-99160-7943",
+      "contactType": "Customer Service"
+    }
+  }
+  </script>
+
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+      /* Proteção contra seleção de texto por scrapers */
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* Permitir seleção apenas em áreas específicas */
+    .seo-content {
+      -webkit-user-select: text;
+      -moz-user-select: text;
+      -ms-user-select: text;
+      user-select: text;
     }
 
     html, body {
@@ -42,101 +129,9 @@
       flex-direction: column;
     }
 
-    header {
-      background: linear-gradient(135deg, #080808, #129e00);
-      display: flex;
-      align-items: center;
-      padding: 10px 20px;
-      height: 50px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 10;
-    }
-
-    header img {
-      height: 35px;
-      margin-right: 10px;
-      transition: transform 0.3s ease;
-    }
-
-    header img:hover {
-      transform: rotate(10deg) scale(1.1);
-    }
-
-    header h1 {
-      font-size: 18px;
-      font-weight: 600;
-      color: #fff;
-    }
-
-    #main-content {
-      position: relative;
-      margin-top: 50px;
-      margin-bottom: 60px;
-      flex: 1;
-      overflow: hidden;
-    }
-
-    #main-content > div {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      border-radius: 10px;
-      display: block;
-    }
-
-    footer {
-      background: linear-gradient(135deg, #020202, #0e0f0e);
-      padding: 10px;
-      height: 60px;
-      box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      z-index: 10;
-    }
-
-    .footer-bar {
-      background: linear-gradient(135deg, #7bbdff, #1a3c5e);
-      height: 20px;
-      position: fixed;
-      bottom: -20px;
-      width: 100%;
-      z-index: 9;
-    }
-
-    .row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 100%;
-      gap: 4px;
-    }
-
-    footer button {
-      flex: 1;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      color: #fff;
-      font-size: 14px;
-      font-weight: 500;
-      border-radius: 8px;
-      cursor: pointer;
-      padding: 4px;
+    /* Proteção visual contra print screen */
+    @media print {
+      body
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -234,3 +229,4 @@
   </script>
 </body>
 </html>
+
